@@ -174,7 +174,7 @@ var chosenXAxis = "poverty";
 var chosenYAxis = "healthcare";   
 
 // Import Data
-d3.csv("../data/data.csv")
+d3.csv("assets/data/data.csv")
   .then(function(healthData) {
 
     // Step 1: Parse Data/Cast as numbers
